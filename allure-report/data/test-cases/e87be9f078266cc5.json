@@ -1,0 +1,71 @@
+{
+  "uid" : "e87be9f078266cc5",
+  "name" : "test_a",
+  "fullName" : "test_pytestjob.Test_one#test_a",
+  "historyId" : "f8a8e317057407b7e4f6cc6b226ebdbe",
+  "time" : {
+    "start" : 1600330391187,
+    "stop" : 1600330391188,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 1 == 2",
+  "statusTrace" : "self = <test_pytestjob.Test_one object at 0x0000011ED0765B70>\n\n    def test_a(self):\n        print('------我是第一个pytest程序----------')\n>       assert 1==2\nE       assert 1 == 2\n\ntest_pytestjob.py:13: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 1 == 2",
+    "statusTrace" : "self = <test_pytestjob.Test_one object at 0x0000011ED0765B70>\n\n    def test_a(self):\n        print('------我是第一个pytest程序----------')\n>       assert 1==2\nE       assert 1 == 2\n\ntest_pytestjob.py:13: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "102ca703ba331381",
+      "name" : "stdout",
+      "source" : "102ca703ba331381.txt",
+      "type" : "text/plain",
+      "size" : 44
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_pytestjob"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_one"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-CT29F0O2"
+  }, {
+    "name" : "thread",
+    "value" : "13300-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_pytestjob"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e87be9f078266cc5.json",
+  "parameterValues" : [ ]
+}

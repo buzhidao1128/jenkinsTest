@@ -1,0 +1,68 @@
+{
+  "uid" : "836a43e1ddb403b",
+  "name" : "test_a",
+  "fullName" : "test_pytestjob.Test_one#test_a",
+  "historyId" : "f8a8e317057407b7e4f6cc6b226ebdbe",
+  "time" : {
+    "start" : 1600330979647,
+    "stop" : 1600330979648,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 1 == 2",
+  "statusTrace" : "self = <test_pytestjob.Test_one object at 0x000002BF9BF5F5F8>\n\n    def test_a(self):\n        print('------我是第一个pytest程序----------')\n>       assert 1==2\nE       assert 1 == 2\n\ntest_pytestjob.py:13: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_pytestjob"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_one"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-CT29F0O2"
+  }, {
+    "name" : "thread",
+    "value" : "14864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_pytestjob"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e87be9f078266cc5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 2",
+      "time" : {
+        "start" : 1600330391187,
+        "stop" : 1600330391188,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "836a43e1ddb403b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,73 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_pytestjob",
+    "children" : [ {
+      "name" : "Test_one",
+      "children" : [ {
+        "name" : "test_a",
+        "uid" : "836a43e1ddb403b",
+        "parentUid" : "ece9c4cc4f1103f51a108a49daf236ce",
+        "status" : "failed",
+        "time" : {
+          "start" : 1600330979647,
+          "stop" : 1600330979648,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_b",
+        "uid" : "3fd7d3505c3a2227",
+        "parentUid" : "ece9c4cc4f1103f51a108a49daf236ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600330979695,
+          "stop" : 1600330979695,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ece9c4cc4f1103f51a108a49daf236ce"
+    } ],
+    "uid" : "ce16229ead56e765b9e0f3bef50542d1"
+  }, {
+    "name" : "test_pytestjob1",
+    "children" : [ {
+      "name" : "Test_one",
+      "children" : [ {
+        "name" : "test_c",
+        "uid" : "9f3da569eccb7644",
+        "parentUid" : "36ad7d44ae00260c9e3306026ae36e01",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600330979698,
+          "stop" : 1600330979698,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_d",
+        "uid" : "b877b46bb775dd91",
+        "parentUid" : "36ad7d44ae00260c9e3306026ae36e01",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600330979700,
+          "stop" : 1600330979700,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "36ad7d44ae00260c9e3306026ae36e01"
+    } ],
+    "uid" : "7c4aff1194d1a965e5bad3dd5a74d3b1"
+  } ]
+}
